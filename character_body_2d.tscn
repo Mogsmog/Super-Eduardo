@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://w14ygkofpxel"]
+
+[ext_resource type="Texture2D" uid="uid://cb5m7lrpma0wt" path="res://Assets/Jackal.png" id="1_f50pn"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b5ugq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_f50pn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_b5ugq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
