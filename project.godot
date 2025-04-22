@@ -10,6 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Game Project"
+config/name="super edwardo"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor]
+
+version_control/plugin_name="GitPlugin"
+version_control/autoload_on_startup=true

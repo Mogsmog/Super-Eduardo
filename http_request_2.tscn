@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://ngcsghwhj6vk"]
+
+[node name="HTTPRequest2" type="HTTPRequest"]
