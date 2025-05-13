@@ -1,0 +1,54 @@
+[gd_scene load_steps=10 format=3 uid="uid://v50pkub6kigw"]
+
+[ext_resource type="Texture2D" uid="uid://cb5m7lrpma0wt" path="res://Assets/Jackal.png" id="1_hb8ge"]
+[ext_resource type="Texture2D" uid="uid://hrrj7lou0das" path="res://Assets/Jackal 3.png" id="2_e1ltt"]
+[ext_resource type="Texture2D" uid="uid://e76p0ulcx32n" path="res://Assets/Jackal walk1.png" id="3_dxifv"]
+[ext_resource type="Texture2D" uid="uid://d3dwmffq7j4ov" path="res://Assets/Jackal 4.png" id="4_pwjut"]
+[ext_resource type="Texture2D" uid="uid://bkeu06m1o6h84" path="res://Assets/Jackal run1.png" id="5_n0g06"]
+[ext_resource type="Texture2D" uid="uid://c1r8wjb0dehjn" path="res://Assets/Jackal run2.png" id="6_ar8e5"]
+[ext_resource type="Texture2D" uid="uid://biq7x317dwyo2" path="res://Assets/Jackal walk2.png" id="7_doop2"]
+[ext_resource type="Texture2D" uid="uid://de3d4g6kn7vf3" path="res://Assets/Jackal walk3.png" id="8_5hcft"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nnovl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_hb8ge")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_e1ltt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dxifv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pwjut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n0g06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ar8e5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_doop2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_5hcft")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[node name="Enemy" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_nnovl")
+animation = &"new_animation"
+frame_progress = 0.0532643
