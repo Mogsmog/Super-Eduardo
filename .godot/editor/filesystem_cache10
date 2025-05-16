@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747160874
-character_body_2d.tscn::PackedScene::1599632364717750519::1747160729::0::1::::<><><>0<>0<><>::uid://cb5m7lrpma0wt::::res://Assets/Jackal.png
+::res://::1747419577
+character_body_2d.tscn::PackedScene/PackedScene::1599632364717750519::1747160729::0::1::::<><><>0<>0<><>::uid://cb5m7lrpma0wt::::res://Assets/Jackal.png
+enemy.tscn::PackedScene/PackedScene::1537442316965062498::1747163096::0::1::::<><><>0<>0<><>::uid://cb5m7lrpma0wt::::res://Assets/Jackal.png<>uid://hrrj7lou0das::::res://Assets/Jackal 3.png<>uid://e76p0ulcx32n::::res://Assets/Jackal walk1.png<>uid://d3dwmffq7j4ov::::res://Assets/Jackal 4.png<>uid://bkeu06m1o6h84::::res://Assets/Jackal run1.png<>uid://c1r8wjb0dehjn::::res://Assets/Jackal run2.png<>uid://biq7x317dwyo2::::res://Assets/Jackal walk2.png<>uid://de3d4g6kn7vf3::::res://Assets/Jackal walk3.png
 icon.svg::CompressedTexture2D/CompressedTexture2D::8547254373670182101::1747076517::1747160683::1::::<><><>0<>0<>aa85e1dd5ec40ccd762b1871a3c311d2<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1747076517
 ::res://addons/godot-git-plugin/::1747160667
