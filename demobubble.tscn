@@ -9,6 +9,6 @@ offset_right = 1152.0
 offset_bottom = 648.0
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(575.5, 324.5)
-scale = Vector2(0.997396, 1.00154)
+position = Vector2(576, 324)
+scale = Vector2(1, 1)
 texture = ExtResource("1_rkach")
