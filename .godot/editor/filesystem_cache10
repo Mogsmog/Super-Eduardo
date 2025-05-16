@@ -6,7 +6,7 @@ icon.svg::CompressedTexture2D/CompressedTexture2D::8547254373670182101::17470765
 ::res://addons/::1747076517
 ::res://addons/godot-git-plugin/::1747160667
 ::res://addons/godot-git-plugin/win64/::1747160683
-::res://Assets/::1747160683
+::res://Assets/::1747420024
 Jackal 2.png::CompressedTexture2D/CompressedTexture2D::3397801913399888732::1747160667::1747160683::1::::<><><>0<>0<>a2d0c267ff9901f2ff3cfd2d43d59740<>res://.godot/imported/Jackal 2.png-76e9135c0df3f795ef95216f80beae4c.ctex::
 Jackal 3.png::CompressedTexture2D/CompressedTexture2D::527466286711278758::1747160667::1747160683::1::::<><><>0<>0<>d65f14f456ddf3072e8bfa9449c60cac<>res://.godot/imported/Jackal 3.png-83e0eb9e1d61eec77f16c3163ecba113.ctex::
 Jackal 4.png::CompressedTexture2D/CompressedTexture2D::9132100280685000301::1747160667::1747160683::1::::<><><>0<>0<>475101c28cbf6da1e9a84ba747cca367<>res://.godot/imported/Jackal 4.png-8ec8e843f2a0081afe770fa184716d29.ctex::
@@ -16,3 +16,6 @@ Jackal walk1.png::CompressedTexture2D/CompressedTexture2D::348725820849617739::1
 Jackal walk2.png::CompressedTexture2D/CompressedTexture2D::2982947006168210359::1747160667::1747160683::1::::<><><>0<>0<>37ac2d732ac9a7fa9d3f6f31f0a9d3a3<>res://.godot/imported/Jackal walk2.png-849191d64058ad86ad9f878fdefd49b2.ctex::
 Jackal walk3.png::CompressedTexture2D/CompressedTexture2D::7498054305248694378::1747160667::1747160683::1::::<><><>0<>0<>de027800223efecfaea2d49cca6c8ea2<>res://.godot/imported/Jackal walk3.png-6592c0de3e7ce10c5b4efc104bda1a9a.ctex::
 Jackal.png::CompressedTexture2D/CompressedTexture2D::4905747897680305731::1747160667::1747160683::1::::<><><>0<>0<>09c642f3cea25f678789925e297997bf<>res://.godot/imported/Jackal.png-aaed4a62314f385dac1b2c4b561fced4.ctex::
+New Piskel (2).png::CompressedTexture2D::8683116046784265017::1747420024::1747420040::1::::<><><>0<>0<>1f1fa861d9845000c8b8f5f7ac305dbe<>res://.godot/imported/New Piskel (2).png-89bd657a0131b896c413d4b287b92e6a.ctex::
+New Piskel (3).png::CompressedTexture2D::8728468861509624567::1747420024::1747420040::1::::<><><>0<>0<>b2a3e90a0f5b05651540a70d9d2cbb44<>res://.godot/imported/New Piskel (3).png-324a777f6e37400f657cca004e114d65.ctex::
+New Piskel (4).png::CompressedTexture2D::6974978744365503012::1747420024::1747420040::1::::<><><>0<>0<>fcfe9733b70bef02703bca58670ef789<>res://.godot/imported/New Piskel (4).png-35294df11d6c0b20f47a783c7c5f57f4.ctex::
