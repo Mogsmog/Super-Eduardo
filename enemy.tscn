@@ -291,14 +291,14 @@ position = Vector2(48, 1.5)
 scale = Vector2(1.5, 1.46875)
 sprite_frames = SubResource("SpriteFrames_sxkh0")
 animation = &"Floaty cookie"
-frame_progress = 0.877311
+frame_progress = 0.709005
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 position = Vector2(101.5, 3)
 scale = Vector2(1.28125, 1.1875)
 sprite_frames = SubResource("SpriteFrames_pyvri")
 animation = &"Thrust"
-frame_progress = 0.27754
+frame_progress = 0.109235
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D3"]
 position = Vector2(-6.63415, 0)
@@ -308,7 +308,7 @@ shape = SubResource("CapsuleShape2D_difxq")
 position = Vector2(-90, -18)
 scale = Vector2(1.8125, 1.71875)
 sprite_frames = SubResource("SpriteFrames_qftu3")
-frame_progress = 0.718382
+frame_progress = 0.550078
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D4"]
 position = Vector2(-1.10345, -0.581818)
@@ -318,24 +318,24 @@ shape = SubResource("RectangleShape2D_5tv8x")
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="."]
 position = Vector2(-33, -9)
 sprite_frames = SubResource("SpriteFrames_ybt8m")
-frame_progress = 0.696419
+frame_progress = 0.464647
 
 [node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="."]
 position = Vector2(-56, -9)
 sprite_frames = SubResource("SpriteFrames_4sfiy")
-frame_progress = 0.269657
+frame_progress = 0.877779
 
 [node name="AnimatedSprite2D7" type="AnimatedSprite2D" parent="."]
 position = Vector2(-73.5, 43)
 scale = Vector2(1.34375, 1.4375)
 sprite_frames = SubResource("SpriteFrames_hb2o4")
-frame_progress = 0.742418
+frame_progress = 0.628966
 
 [node name="AnimatedSprite2D8" type="AnimatedSprite2D" parent="."]
 position = Vector2(-148, -8)
 scale = Vector2(1.46875, 1.53125)
 sprite_frames = SubResource("SpriteFrames_nr6c1")
-frame_progress = 0.702349
+frame_progress = 0.365842
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D8"]
 position = Vector2(-6.12766, 1.30612)
