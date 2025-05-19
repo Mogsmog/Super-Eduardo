@@ -16,8 +16,12 @@ config/name="super edwardo"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 run/main_scene="res://demobubble.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
+=======
+config/features=PackedStringArray("4.4", "Forward Plus")
+>>>>>>> Stashed changes
 =======
 config/features=PackedStringArray("4.4", "Forward Plus")
 >>>>>>> Stashed changes
