@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://cxxd6om67cgeo"
+=======
+uid="uid://n4p0eeijlwmm"
+>>>>>>> Stashed changes
 path="res://.godot/imported/New Piskel-1.png.png-b9d72881a6b989e3a39e72d9612a8fdd.ctex"
 metadata={
 "vram_texture": false
