@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://v50pkub6kigw"]
+[gd_scene load_steps=49 format=3 uid="uid://iqnlrrgc7vw3"]
 
 [ext_resource type="Texture2D" uid="uid://cb5m7lrpma0wt" path="res://Assets/Jackal.png" id="1_hb8ge"]
 [ext_resource type="Texture2D" uid="uid://hrrj7lou0das" path="res://Assets/Jackal 3.png" id="2_e1ltt"]
@@ -141,6 +141,10 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_difxq"]
+radius = 7.57895
+height = 16.8421
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_qftu3"]
 animations = [{
 "frames": [{
@@ -175,6 +179,9 @@ animations = [{
 "name": &"default",
 "speed": 5.0
 }]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5tv8x"]
+size = Vector2(22.1379, 16.9818)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ybt8m"]
 animations = [{
@@ -270,6 +277,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jnl6c"]
+height = 26.1224
+
 [node name="Enemy" type="Area2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -281,39 +291,52 @@ position = Vector2(48, 1.5)
 scale = Vector2(1.5, 1.46875)
 sprite_frames = SubResource("SpriteFrames_sxkh0")
 animation = &"Floaty cookie"
-frame_progress = 0.995646
+frame_progress = 0.877311
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 position = Vector2(101.5, 3)
 scale = Vector2(1.28125, 1.1875)
 sprite_frames = SubResource("SpriteFrames_pyvri")
 animation = &"Thrust"
-frame_progress = 0.463534
+frame_progress = 0.27754
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D3"]
+position = Vector2(-6.63415, 0)
+shape = SubResource("CapsuleShape2D_difxq")
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
 position = Vector2(-90, -18)
 scale = Vector2(1.8125, 1.71875)
 sprite_frames = SubResource("SpriteFrames_qftu3")
-frame_progress = 0.186698
+frame_progress = 0.718382
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D4"]
+position = Vector2(-1.10345, -0.581818)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_5tv8x")
 
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="."]
 position = Vector2(-33, -9)
 sprite_frames = SubResource("SpriteFrames_ybt8m")
-frame_progress = 0.822419
+frame_progress = 0.696419
 
 [node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="."]
 position = Vector2(-56, -9)
 sprite_frames = SubResource("SpriteFrames_4sfiy")
-frame_progress = 0.630069
+frame_progress = 0.269657
 
 [node name="AnimatedSprite2D7" type="AnimatedSprite2D" parent="."]
 position = Vector2(-73.5, 43)
 scale = Vector2(1.34375, 1.4375)
 sprite_frames = SubResource("SpriteFrames_hb2o4")
-frame_progress = 0.290732
+frame_progress = 0.742418
 
 [node name="AnimatedSprite2D8" type="AnimatedSprite2D" parent="."]
 position = Vector2(-148, -8)
 scale = Vector2(1.46875, 1.53125)
 sprite_frames = SubResource("SpriteFrames_nr6c1")
-animation = &"new_animation"
+frame_progress = 0.702349
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D8"]
+position = Vector2(-6.12766, 1.30612)
+shape = SubResource("CapsuleShape2D_jnl6c")
